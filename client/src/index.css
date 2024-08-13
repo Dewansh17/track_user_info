@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .auth-container, .dashboard-container {
+      padding: 1rem;
+    }
+    .auth-container form, .dashboard-container {
+      padding: 1rem;
+    }
+    .dashboard-container ul {
+      padding: 0.5rem;
+    }
+    .dashboard-container li {
+      padding: 0.25rem;
+    }
+  }
+  

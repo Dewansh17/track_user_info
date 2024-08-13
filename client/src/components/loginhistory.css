@@ -1,0 +1,31 @@
+/* client/components/loginHistory.css */
+.login-history-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .login-history-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-history-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .login-history-container table th,
+  .login-history-container table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .login-history-container table th {
+    background-color: #f2f2f2;
+  }
+  
+  .login-history-container table tr:hover {
+    background-color: #f1f1f1;
+  }
+  

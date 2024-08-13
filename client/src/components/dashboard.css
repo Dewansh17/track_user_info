@@ -1,0 +1,28 @@
+.dashboard-container {
+    padding: 2rem;
+    background: #f0f2f5;
+  }
+  
+  .dashboard-container h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard-container h3 {
+    margin-top: 2rem;
+  }
+  
+  .dashboard-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard-container li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background: #fff;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
